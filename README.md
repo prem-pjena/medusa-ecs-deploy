@@ -43,9 +43,6 @@ See: `.github/workflows/deploy.yml`
 
 ---
 
-## 📸 Loom Video Explanation
-
-📹 [Click here to watch the full explanation video](PASTE_YOUR_LOOM_LINK_HERE)
 
 ---
 
