@@ -8,12 +8,6 @@ output "ecs_cluster_name" {
   value       = aws_ecs_cluster.medusa.name
 }
 
-# Commented out to avoid error (resource not declared yet)
-# output "ecs_service_name" {
-#   description = "Name of the ECS service"
-#   value       = aws_ecs_service.medusa.name
-# }
-
 output "public_subnet_ids" {
   description = "IDs of the public subnets"
   value       = aws_subnet.public[*].id
